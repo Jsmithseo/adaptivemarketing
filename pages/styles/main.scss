@@ -22,6 +22,15 @@
   font-style: normal;
 }
 
+
+img.img-fluid.client {
+  max-height: 245px;
+}
+
+.homepageCopy {
+  font-size: 30px;
+}
+
 @font-face {
   font-family: 'Montserrat';
   src: url('/fonts/ Montserrat-Italic.ttf');

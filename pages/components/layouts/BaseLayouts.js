@@ -12,36 +12,18 @@ const BaseLayout = (props) => {
       <div className="MainFooter">
         <Container>
           <Row>
-            <Col xs="12"  sm="12" md="4" lg="4">
+            <Col xs="12"  sm="12" md="6" lg="6">
               <h1 className="contactTitle">Contact:</h1>
               
-              <div className="rickPhotoFooter">
-                <img
-                  src="/rick2.png" // Replace with your image path
-                  alt="Image"
-                  className="img-fluid logo"
-                />
-              </div>
              
             </Col>
 
-            <Col xs="12" sm="12"  md="4" lg="4" className="details">
-            <span className="name">Federick Crisostomo</span>
+            <Col xs="12" sm="12"  md="4" lg="6" className="details">
+            <span className="name">Brandon Povio</span>
+              <p className="contactInfo">Mobile: 657 - 342 - 7016</p>
               <p className="contactInfo">
-                Real Estate Salesperson Coldwell Banker Solano Pacific
+                brandonpovio@gmail.com
               </p>
-              <p className="contactInfo">Mobile: (707) 853-8610</p>
-              <p className="contactInfo">
-                federick.crisostomo@solanopacific.com
-              </p>
-              <p className="contactInfo"> CalRE #: 01126204</p>
-            </Col>
-            <Col sm="12" xs="12" md="4" lg="4">
-              <img
-                src="/coldwell_banker_logo.png" // Replace with your image path
-                alt="Image"
-                className="img-fluid"
-              />
             </Col>
           </Row>
         </Container>
