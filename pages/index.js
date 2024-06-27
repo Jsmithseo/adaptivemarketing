@@ -42,9 +42,6 @@ export default function Index() {
       <Container>
         <Row className="aboutSection">
           <Col xs="12" sm="12" md="12" lg="offset-4" xl="offset-4">
-            <Link href="https://bayareahomesbyrick.idxbroker.com/idx/results/listings?csv_listingID=324043751&a_statusCategory%5B%5D=active&a_statusCategory%5B%5D=sold">
-
-            </Link>
           </Col>
           <Col xs="12" sm="12" md="12" lg="offset-4">
             <h2 className="aboutTitle">Adaptive Marketing</h2>
@@ -63,84 +60,80 @@ export default function Index() {
         <br></br>
         <br></br>
         <Row>
-          <Col xs="12" sm="4">
+          <Col xs="4" sm="4">
             <center>
                 {' '}
                 <h3>Cold Call Marketing</h3>
             </center>
-            <Link href="https://bayareahomesbyrick.idxbroker.com/i/vallejo-homes">
-              <img
+              {/* <img
                 src="/cold_calling.png" // Replace with your image path
                 alt="Image"
                 className="img-fluid client"
-              />
-            </Link>
+              /> */}
+
           </Col>
-          <Col xs="12" sm="4">
+          <Col xs="4" sm="4">
             <center>
                 <h3>Door to Door Marketing</h3>
             </center>
-            <Link href="https://bayareahomesbyrick.idxbroker.com/i/benicia-homes-for-sale">
-              <img
+              {/* <img
                 src="/doortodoor.png" // Replace with your image path
                 alt="Image"
                 className="img-fluid client"
-              />
-            </Link>
+              /> */}
+
           </Col>
-          <Col xs="12" sm="4">
+          <Col xs="4" sm="4">
             <center>
-              <Link href="https://bayareahomesbyrick.idxbroker.com/i/fairfield-homes-for-sale">
                 {' '}
                 <h3>Booth Marketing</h3>
-              </Link>
+
             </center>
-            <Link href="https://bayareahomesbyrick.idxbroker.com/i/fairfield-homes-for-sale">
-              <img
+
+              {/* <img
                 src="/booth_marketing.png" // Replace with your image path
                 alt="Image"
                 className="img-fluid client"
-              />
-            </Link>
+              /> */}
           </Col>
         </Row>
 
         <br></br>
         <br></br>
         <Row>
-          <Col xs="12" sm="4">
+          <Col xs="4" sm="4">
             <center>
                 <h3>Email Marketing</h3>
             </center>
-              <img
+              {/* <img
                 src="/email_marketing.png" // Replace with your image path
                 alt="Image"
                 className="img-fluid client"
-              />
+              /> */}
           </Col>
-          <Col xs="12" sm="4">
+          <Col xs="4" sm="4">
             <center>
                 <h3>SMS Marketing</h3>
             </center>
-              <img
+              {/* <img
                 src="/sms_marketing.png" // Replace with your image path
                 alt="Image"
                 className="img-fluid client"
-              />
+              /> */}
           </Col>
 
-          <Col xs="12" sm="4">
+          <Col xs="4" sm="4">
             <center>
 
                 {' '}
                 <h3>Direct Mail Services</h3>
             </center>
 
-              <img
+              {/* <img
                 src="/direct_mail.png" // Replace with your image path
                 alt="Image"
                 className="img-fluid client"
-              />
+              /> */}
           </Col>
         </Row>
       </Container>
