@@ -18,11 +18,9 @@ const MyHeader = () => {
   };
 
   return (
-<div>
-  <h3>
-    Adaptive Marketing | We help drive results
-  </h3>
-</div>
+    <div>
+      <h3>Adaptive Marketing | brandonpovio@gmail.com</h3>
+    </div>
   );
 };
 

@@ -22,7 +22,6 @@
   font-style: normal;
 }
 
-
 img.img-fluid.client {
   max-height: 245px;
   max-width: 350px;
@@ -551,9 +550,8 @@ h2 {
   padding-top: 0;
 }
 
-
 nav.navbar.navbar-expand-md.navbar-light.bg-light {
-  background-color: #20629E!important;
+  background-color: #20629e !important;
 }
 
 .headerLogo {
@@ -561,40 +559,36 @@ nav.navbar.navbar-expand-md.navbar-light.bg-light {
   top: 0; /* Pin to the top */
   right: 0; /* Pin to the right */
   height: auto; /* Maintain aspect ratio */
-
 }
 
-
-@media (max-width: 768px) { /* Adjust the max-width as needed for your mobile breakpoint */
-  .headerLogo  {
-      display: none;
+@media (max-width: 768px) {
+  /* Adjust the max-width as needed for your mobile breakpoint */
+  .headerLogo {
+    display: none;
   }
 
-
-img.img-fluid.logo {
+  img.img-fluid.logo {
     padding-top: 0;
- }
- .details{
-  padding-top: 100px;
-}
-img.img-fluid.logo.header {
-  width: 50%
-}
+  }
+  .details {
+    padding-top: 100px;
+  }
+  img.img-fluid.logo.header {
+    width: 50%;
+  }
 
-.contactInfo {
-  font-size: 16px;
-}
-.rickHeader {
-  padding-top: 75px;
-  margin-right: -5px;
-}
+  .contactInfo {
+    font-size: 16px;
+  }
+  .rickHeader {
+    padding-top: 75px;
+    margin-right: -5px;
+  }
 
-p {
-  margin-bottom: -6px!important;
+  p {
+    margin-bottom: -6px !important;
+  }
 }
-}
-
-
 
 a.nav-link {
   color: white;
@@ -604,4 +598,31 @@ a.nav-link {
   color: #fff;
   font-weight: 700;
   font-size: 30px;
+}
+
+
+
+.jumbtron {
+  background: #1F629C;
+}
+
+.jumbotronTitle {
+  color: #fff!important;
+  padding-top: 50px;
+}
+
+
+.jumbotronCopy {
+  color: #fff;
+  font-size: 22px;
+}
+
+
+.companyCopy {
+
+font-size: 25px;
+}
+
+* {
+  font-family: avenir;
 }

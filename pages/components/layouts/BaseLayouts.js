@@ -12,18 +12,14 @@ const BaseLayout = (props) => {
       <div className="MainFooter">
         <Container>
           <Row>
-            <Col xs="12"  sm="12" md="6" lg="6">
+            <Col xs="12" sm="12" md="6" lg="6">
               <h1 className="contactTitle">Contact:</h1>
-              
-             
             </Col>
 
-            <Col xs="12" sm="12"  md="4" lg="6" className="details">
-            <span className="name">Brandon Povio</span>
+            <Col xs="12" sm="12" md="4" lg="6" className="details">
+              <span className="name">Brandon Povio</span>
               <p className="contactInfo">Mobile: 657 - 342 - 7016</p>
-              <p className="contactInfo">
-                brandonpovio@gmail.com
-              </p>
+              <p className="contactInfo">brandonpovio@gmail.com</p>
             </Col>
           </Row>
         </Container>
