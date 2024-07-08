@@ -12,11 +12,16 @@ const BaseLayout = (props) => {
       <div className="MainFooter">
         <Container>
           <Row>
-            <Col xs="12" sm="12" md="6" lg="6">
-              <h1 className="contactTitle">Contact:</h1>
+          <Col xs="12" sm="12" md="4" lg="4">
+              <p className="footerCopy">
+             Adaptive Marketing  is a leading distribution and marketing company, providing high sales volume and quality solutions to any product or service. With our knowledge and resources, we are confident in understanding the unique needs of our clients and how to drive sales in order to exceed our clients’ goals.
+              </p>
+            </Col>
+            <Col xs="12" sm="12" md="4" lg="4">
+              <p className="footerCopy"></p>
             </Col>
 
-            <Col xs="12" sm="12" md="4" lg="6" className="details">
+            <Col xs="12" sm="12" md="4" lg="4" className="details">
               <span className="name">Brandon Povio</span>
               <p className="contactInfo">Mobile: 657 - 342 - 7016</p>
               <p className="contactInfo">brandonpovio@gmail.com</p>
@@ -24,6 +29,7 @@ const BaseLayout = (props) => {
           </Row>
         </Container>
       </div>
+      © 2024• Adaptive Marketing LLC
     </div>
   );
 };

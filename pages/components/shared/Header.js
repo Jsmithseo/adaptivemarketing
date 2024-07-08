@@ -19,7 +19,7 @@ const MyHeader = () => {
 
   return (
     <div>
-      <h3>Adaptive Marketing | brandonpovio@gmail.com</h3>
+      <h5>Adaptive Marketing | brandonpovio@gmail.com</h5>
     </div>
   );
 };

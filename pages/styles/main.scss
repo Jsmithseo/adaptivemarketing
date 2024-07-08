@@ -600,29 +600,36 @@ a.nav-link {
   font-size: 30px;
 }
 
-
-
 .jumbtron {
-  background: #1F629C;
+  background: #1f629c;
 }
 
 .jumbotronTitle {
-  color: #fff!important;
+  color: #fff !important;
   padding-top: 50px;
 }
-
 
 .jumbotronCopy {
   color: #fff;
   font-size: 22px;
 }
 
-
 .companyCopy {
-
-font-size: 25px;
+  font-size: 25px;
 }
 
 * {
   font-family: avenir;
+}
+
+.missionSection {
+  background-color: #d3d3d3;
+  background-size: cover; /* Adjusts the image size to cover the entire background */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center center; /* Centers the image */
+}
+
+
+.footerCopy {
+  color: #fff;
 }
