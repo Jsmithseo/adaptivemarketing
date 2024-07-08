@@ -1,4 +1,5 @@
-import React from 'react';
+
+import React, { useEffect } from 'react';
 
 // import MaterialContactform from './components/MaterialContactform';
 import Link from 'next/link';
@@ -22,6 +23,28 @@ export default function Index() {
     fontSize: '30px',
     fontFamily: 'avenir',
   };
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://js.hsforms.net/forms/v2.js';
+    script.async = true;
+    document.body.appendChild(script);
+
+    script.onload = () => {
+      if (window.hbspt) {
+        window.hbspt.forms.create({
+          portalId: '46710107',
+          formId: 'bb52564d-5132-4154-971e-92718224a412',
+          target: '#hubspotForm'
+        });
+      }
+    };
+
+    // Clean up script
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
   return (
     <BaseLayout>
       <br></br>
@@ -40,7 +63,6 @@ export default function Index() {
             expanded their reach.
           </p>
           <center>
-            <Button>About Us</Button>
           </center>
           <br></br>
           <br></br>
@@ -184,7 +206,7 @@ export default function Index() {
               alt="Image"
               className="img-fluid"
             />
-          <h3>Expand You Customer Base</h3>
+          <h3>Expand Your Customer Base</h3>
           <p>We offer a variety of channels that will put you right in front of your clients. Our ability to quickly expand the reach of your product or service through our complex network of mult.i-chain retail outlets, managerial resources, and independent sales operators</p>
           </Col>
           <Col xs="12" sm="12" md="12" lg="6">
@@ -202,8 +224,13 @@ export default function Index() {
           <br></br>
           <br></br>
         </center>
+        <div>
+      <h2>Contact Us</h2>
+      <div id="hubspotForm"></div>
+    </div>
       </Container>
       
     </BaseLayout>
   );
 }
+
