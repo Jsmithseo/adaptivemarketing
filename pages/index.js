@@ -170,7 +170,40 @@ export default function Index() {
           <br></br>
           <br></br>
         </Col>
+  
       </Row>
+      <Container>
+        <center>
+        <br></br>
+          <br></br>
+          <br></br>
+      <Row className="aboutSection">
+          <Col xs="12" sm="12" md="6" lg="6">
+          <img
+              src="users.png" // Replace with your image path
+              alt="Image"
+              className="img-fluid"
+            />
+          <h3>Expand You Customer Base</h3>
+          <p>We offer a variety of channels that will put you right in front of your clients. Our ability to quickly expand the reach of your product or service through our complex network of mult.i-chain retail outlets, managerial resources, and independent sales operators</p>
+          </Col>
+          <Col xs="12" sm="12" md="12" lg="6">
+          <img
+              src="/cut.png" // Replace with your image path
+              alt="Image"
+              className="img-fluid"
+            />
+            <h3>Customized Approach</h3>
+            <p>Whether you are a privately owned company, service provider, or an independent sales agent, our distribution network will give you an advantage, through the utilization of both our support and years of experience.</p>
+          </Col>
+          
+        </Row>
+        <br></br>
+          <br></br>
+          <br></br>
+        </center>
+      </Container>
+      
     </BaseLayout>
   );
 }
