@@ -81,6 +81,8 @@ body {
   }
 }
 
+
+
 .container {
   padding-top: 50px;
 }
@@ -551,7 +553,7 @@ h2 {
 }
 
 nav.navbar.navbar-expand-md.navbar-light.bg-light {
-  background-color: #20629e !important;
+  background-color: #ffffff !important;
 }
 
 .headerLogo {
@@ -559,6 +561,10 @@ nav.navbar.navbar-expand-md.navbar-light.bg-light {
   top: 0; /* Pin to the top */
   right: 0; /* Pin to the right */
   height: auto; /* Maintain aspect ratio */
+}
+
+.email {
+  color:#000000!important;
 }
 
 @media (max-width: 768px) {
